@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+        <meta name="description" content="Violate Responsive Admin Template">
+        <meta name="keywords" content="Super Admin, Admin, Template, Bootstrap">
+        <title>风机健康评分</title>
+        <link rel="shortcut icon" href="../img/icon.ico" tppabs="http://112.25.190.109:7002/eaps/img/icon/icon.ico" />
+        <!-- CSS -->
+        <link href="../css/bootstrap.min.css" tppabs="http://112.25.190.109:7002/eaps/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/animate.min.css" tppabs="http://112.25.190.109:7002/eaps/css/animate.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/font-awesome.min.css" tppabs="http://112.25.190.109:7002/eaps/css/font-awesome.min.css" />
+        <link href="../css/form.css" tppabs="http://112.25.190.109:7002/eaps/css/form.css" rel="stylesheet">
+        <link href="../css/calendar.css" tppabs="http://112.25.190.109:7002/eaps/css/calendar.css" rel="stylesheet">
+        <link href="../css/file-manager.css" tppabs="http://112.25.190.109:7002/eaps/css/file-manager.css" rel="stylesheet">
+        <link href="../css/style.css" tppabs="http://112.25.190.109:7002/eaps/css/style.css" rel="stylesheet">
+        <link href="../css/icons.css" tppabs="http://112.25.190.109:7002/eaps/css/icons.css" rel="stylesheet">
+        <link href="../css/generics.css" tppabs="http://112.25.190.109:7002/eaps/css/generics.css" rel="stylesheet">
+        <link href="../css/y_style.css" tppabs="http://112.25.190.109:7002/eaps/css/y_style.css" rel="stylesheet">
+        <style type="text/css">
+           #y_all_content .y_tab_li{
+                width: 25%;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                font-weight: bold;
+           }
+           #y_all_content ul li.active{background: rgba(0,0,0,0.7);}
+        </style>
+    </head>
+    <body id="skin-blur-sky1"  style="">
+        <header id="header" class="media">
+            <!--<a href="" id="menu-toggle"></a> -->
+            <!--<a class="logo pull-left" href="index.html">超级管理员 1.0</a>-->
+            <div class="logo pull-left"><img src="../img/logo.png" tppabs="http://112.25.190.109:7002/eaps/img/logo.png"></div>
+            <div class="media-body">
+                <div class="media" id="top-menu">
+                    <div class="pull-left tm-icon">
+                        <a data-drawer="messages" class="drawer-toggle" href="">
+                            <i class="sa-top-message"></i>
+                            <i class="n-count animated">5</i>
+                            <span>消息</span>
+                        </a>
+                        <a data-drawer="messages" class="drawer-toggle" href="">
+                            <i class="sa-top-warning"></i>
+                            <i class="n-count animated">5</i>
+                            <span>警告</span>
+                        </a>
+                    </div>
+                    <!--<div class="pull-left tm-icon">
+                        <a data-drawer="notifications" class="drawer-toggle" href="">
+                            <i class="sa-top-updates"></i>
+                            <i class="n-count animated">9</i>
+                            <span>更新</span>
+                        </a>
+                    </div>-->
+                    <div id="time" class="pull-right">
+                       <button type="button" class="btn btn-md btn-alt dropdown-toggle" data-toggle="dropdown">
+                                <i class="icon left">&#61758;</i>&nbsp;
+                                  <span class='y_changeInnerHTML'>红花梁风电场</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" style="min-width:100px;">
+                                <li><a href="#">红花梁风电场</a></li>
+                                <li><a href="#">哈密风电场</a></li>
+                                <li><a href="#">红河谷风电场</a></li>
+                            </ul>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <section id="main" class="p-relative" role="main">
+        	<!-- nav_start -->
+            <ul class="pull-left nav nav-pills nav-stacked y_nav">
+            	<li role="presentation" class="sa-side-home"><a href="../index.html" tppabs="http://112.25.190.109:7002/eaps/index.html">风场概览</a></li>
+            	<li role="presentation" class="sa-side-chart"><a href="electricity_evaluate_analysis.html" tppabs="http://112.25.190.109:7002/eaps/electricity_evaluate_analysis.html">发电评估分析</a></li>
+            	<li role="presentation" class="sa-side-widget" ><a href="power_curve_analysis.html" tppabs="http://112.25.190.109:7002/eaps/power_curve_analysis.html">功率曲线分析</a></li>
+            	<li role="presentation" class="sa-side-table   y_active"><a href="#">风机健康评分</a></li>
+            	<li role="presentation" class="sa-side-ui"><a href="electricity_loss_evaluate.html" tppabs="http://112.25.190.109:7002/eaps/electricity_loss_evaluate.html">发电损失评估</a></li>
+            	<li role="presentation" class="sa-side-page"><a href="working_data_trend.html" tppabs="http://112.25.190.109:7002/eaps/working_data_trend.html">运行数据趋势</a></li>
+            	<li role="presentation" class="sa-side-folder"><a href="weather_event_warning.html" tppabs="http://112.25.190.109:7002/eaps/weather_event_warning.html">气象事件预警</a></li>
+                <li class="y_single m-t-20" ><!-- Projects -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            当前风机健康状况
+                        </h2>
+                        
+                        <div class="s-widget-body">
+                            <div class="side-border">
+                                <small>最低评分风机</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="progress-bar tooltips progress-bar-danger" style="width: 60%;" data-original-title="60%">
+                                          <span class="sr-only">60% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第二重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-info" style="width: 43%;" data-original-title="43%">
+                                          <span class="sr-only">43% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第三重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-warning" style="width: 81%;" data-original-title="81%">
+                                          <span class="sr-only">81% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第四重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-success" style="width: 10%;" data-original-title="10%">
+                                          <span class="sr-only">10% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第五重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-success" style="width: 95%;" data-original-title="95%">
+                                          <span class="sr-only">95% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </li>
+            </ul>
+            <!-- nav_end -->
+                    
+            <!-- Content -->
+            <section id="content" class="container">
+                <!-- Messages Drawer -->
+                <!--
+                <div id="messages" class="tile drawer animated">
+                   nothing
+                </div>
+                -->
+                <!-- Notification Drawer -->
+                <!--
+                <div id="notifications" class="tile drawer animated">
+                    nothing
+                </div>
+                -->
+                <!-- Main Widgets -->
+                <div class="block-area">
+                    <!-- USA Map -->
+                    <div class="tile">
+						<ul class="nav  nav-tabs ">
+                            <li id="y_moveLt">
+                                <a>
+                                  <i class="icon" style="cursor:pointer;margin-right:15px;">&#61903;</i>
+                                </a>
+                            </li>
+                             <li id="y_moveRt">
+                                <a>
+                                  <i class="icon" style="cursor:pointer;margin-right:15px;">&#61815;</i>
+                                </a>
+                            </li>
+                            <li class="y_winMessage y_bian" style="margin-right:30px;">风场信息</li>
+                            <li  class="y_winMessage y_bian">平均风速</li>
+                            <li class="y_winMessage y_bian" style='color:#ffd600'>30km/h</li>
+                            <li class="y_winMessage y_bian">现场功率</li>
+                            <li class="y_winMessage y_bian" style='color:#ffd600'>4500kw</li>
+                            <li class="y_winMessage y_bian">综合评分</li>
+                            <li class="y_winMessage y_bian" style='color:#ffd600'>80</li>
+                            <li class="pull-right elfinder-ltr">
+                                <div class="y_select">
+                                  <form  class="form-inline" role="form">  
+                                    <ul class="clearfix form-group">
+                                    	<li class="form-control">
+                                        	<div class="y_choose_windmill">
+                                            	<input id="y_choose_windmill_btn"  type="button" value="A01"/>
+                                            	<ul class="y_windmill_list" id="y_windmill_list_two">
+                                                	<li><span>A01</span></li>
+                                                	<li><span>A02</span></li>
+                                                	<li><span>A03</span></li>
+                                                	<li><span>A04</span></li>
+                                                	<li><span>A05</span></li>
+                                                	<li><span>A06</span></li>
+                                                	<li><span>A07</span></li>
+                                                	<li><span>A08</span></li>
+                                                	<li><span>A09</span></li>
+                                                	<li><span>A10</span></li>
+                                                	<li><span>A11</span></li>
+                                                	<li><span>A12</span></li>
+                                                	<li><span>A13</span></li>
+                                                	<li><span>A14</span></li>
+                                                	<li><span>A15</span></li>
+                                                	<li><span>A16</span></li>
+                                                	<li><span>A17</span></li>
+                                                	<li><span>A18</span></li>
+                                                	<li><span>A19</span></li>
+                                                	<li><span>A20</span></li>
+                                                	<li><span>A21</span></li>
+                                                	<li><span>A22</span></li>
+                                                	<li><span>A23</span></li>
+                                                	<li><span>A24</span></li>
+                                                	<li><span>A25</span></li>
+                                                	<li><span>A26</span></li>
+                                                	<li><span>A27</span></li>
+                                                	<li><span>A28</span></li>
+                                                	<li><span>A29</span></li>
+                                                	<li><span>A30</span></li>
+                                                	<li><span>A31</span></li>
+                                                	<li><span>A32</span></li>
+                                                	<li><span>A33</span></li>
+                                                	<li class="clearfix"></li>
+                                               </ul>
+                                            </div>
+                                        </li>
+                                    	<li class="form-control">
+                                            <select name="" id="">
+                                                <option value="">2015年</option>
+                                                <option value="">2014年</option>
+                                                <option value="">2013年</option>
+                                                <option value="">2012年</option>
+                                            </select>
+                                        </li>
+                                    	<li class="form-control">
+                                            <select name="" id="y_month">
+                                                <option value="">1月</option>
+                                                <option value="">2月</option>
+                                                <option value="">3月</option>
+                                                <option value="">4月</option>
+                                                <option value="">5月</option>
+                                                <option value="">6月</option>
+                                                <option value="">7月</option>
+                                                <option value="">8月</option>
+                                                <option value="">9月</option>
+                                                <option value="">10月</option>
+                                                <option value="">11月</option>
+                                                <option value="">12月</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                    		<input class="y_btn_bg"  type="submit" value="查询"/>
+                                        </li>
+                                    </ul>
+                                  </form>  
+                               </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="y_all_content">
+                    <div class="">
+                        <div class="tab-container" >
+                            <ul class="nav tab nav-tabs">
+                                <li class="y_tab_li active"><a href="#tab1" data-toggle="tab">机舱风速仪评分</a></li>
+                                <!-- <li class="y_tab_li"><a href="#tab2" data-toggle="tab">机舱风速仪可靠性评估</a></li> -->
+                                <li class="y_tab_li"><a href="#tab3" data-toggle="tab">偏航系统评分</a></li>
+                                <li class="y_tab_li"><a href="#tab4" data-toggle="tab">机械系统评分</a></li>
+                                <li class="y_tab_li"><a href="#tab5" data-toggle="tab">电气系统评分</a></li>
+                            </ul>
+                              
+                            <div class="tab-content" id="tabContainer">
+                                <div class="tab-pane active" id="tab1">
+                                           <h4 class="y_container_title">机舱风速仪评分</h4>
+                                           <div id="tab1_container-1">
+                                               <img  src="../img/health.jpg" />
+                                           </div>
+                                </div>
+                                <!-- <div class="tab-pane" id="tab2">
+                                           <h4 class="y_container_title">机舱风速仪可靠性评估</h4>
+                                           <div id="tab2_container1"></div>
+                                </div> -->
+                                <div class="tab-pane" id="tab3">
+                                           <h4 class="y_container_title">偏航系统评分</h4>
+                                           <div id="tab3_container-2">
+                                               <img  src="../img/health.jpg" />
+                                           </div>
+                                </div>
+                                <div class="tab-pane" id="tab4">
+                                           <h4 class="y_container_title">机械系统评分</h4>
+                                           <div id="tab4_container-3">
+                                               <img  src="../img/health.jpg" />
+                                           </div>
+                                </div>
+                                <div class="tab-pane" id="tab5">
+                                           <h4 class="y_container_title">电气系统评分</h4>
+                                           <div id="tab5_container-4">
+                                               <img  src="../img/health.jpg" />
+                                           </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                 
+                </div>
+            </section>
+
+
+        </section>
+        
+        <!-- Javascript Libraries -->
+        <!-- jQuery -->
+        <script type="text/javascript" src="../js/jquery-1.8.3.min.js" tppabs="http://112.25.190.109:7002/eaps/js/jquery-1.8.3.min.js"></script><!-- jQuery Library -->
+        <script src="../js/jquery-ui.min.js" tppabs="http://112.25.190.109:7002/eaps/js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+        <script src="../js/jquery.easing.1.3.js" tppabs="http://112.25.190.109:7002/eaps/js/jquery.easing.1.3.js"></script> <!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
+
+        <!-- Bootstrap -->
+        <script src="../js/bootstrap.min.js" tppabs="http://112.25.190.109:7002/eaps/js/bootstrap.min.js"></script>
+
+       
+
+        <script src="../js/sparkline.min.js" tppabs="http://112.25.190.109:7002/eaps/js/sparkline.min.js"></script> <!-- Sparkline - Tiny charts -->
+        <script src="../js/easypiechart.js" tppabs="http://112.25.190.109:7002/eaps/js/easypiechart.js"></script> <!-- EasyPieChart - Animated Pie Charts -->
+        <script src="../js/charts.js" tppabs="http://112.25.190.109:7002/eaps/js/charts.js"></script> <!-- All the above chart related functions -->
+
+		<script type="text/javascript">
+        	$("#wrap").height($(window).height()-77);
+			window.onresize=function(){
+				$("#wrap").height($(window).height()-77);
+			}
+        </script>
+        <!--  Form Related -->
+        <script src="../js/icheck.js" tppabs="http://112.25.190.109:7002/eaps/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+
+        <!-- UX -->
+        <script src="../js/scroll.min.js" tppabs="http://112.25.190.109:7002/eaps/js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+
+        <!-- Other -->
+        <script src="../js/calendar.min.js" tppabs="http://112.25.190.109:7002/eaps/js/calendar.min.js"></script> <!-- Calendar -->
+        <script src="../js/feeds.min.js" tppabs="http://112.25.190.109:7002/eaps/js/feeds.min.js"></script> <!-- News Feeds -->
+        
+
+        <!-- All JS functions -->
+        <script src="../js/functions.js" tppabs="http://112.25.190.109:7002/eaps/js/functions.js"></script>
+        <script src="../js/y_all.js" tppabs="http://112.25.190.109:7002/eaps/js/y_all.js"></script>
+        <script src="../js/windmill_health_score.js" tppabs="http://112.25.190.109:7002/eaps/js/windmill_health_score.js"></script>
+
+ 
+               <!--highcharts-->
+          
+          <script type="text/javascript" src="../js/highstock.js" tppabs="http://112.25.190.109:7002/eaps/js/hcharts/highstock.js"></script>
+          <script type="text/javascript" src="../js/exporting.js" tppabs="http://112.25.190.109:7002/eaps/js/hcharts/exporting.js"></script>
+          <script type="text/javascript" src="../js/highcharts-more.js" tppabs="http://112.25.190.109:7002/eaps/js/hcharts/highcharts-more.js"></script>
+          <script type="text/javascript" src="../js/dark-blue.js" tppabs="http://112.25.190.109:7002/eaps/js/hcharts/themes/dark-blue.js"></script>
+       
+    </body>
+</html>

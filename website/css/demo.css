@@ -1,0 +1,111 @@
+.timeAxisDiv{
+	BACKGROUND-IMAGE:url(../img/y_slider_bg.png)/*tpa=http://112.25.190.109:7002/eaps/img/y_slider_bg.png*/;
+	/*opacity: 0.9;
+	filter: alpha(opacity=90);*/
+	height:50px;
+	bottom:0px;
+	position:absolute; 
+	width:100%; 
+	margin:auto;
+	text-aligh:center; 
+	z-index:1000;
+}
+.timeAxisDiv #preTime{
+	BACKGROUND-IMAGE: url(../img/y_slider_r.png)/*tpa=http://112.25.190.109:7002/eaps/img/y_slider_r.png*/;
+	BACKGROUND-REPEAT: no-repeat; 
+	position: absolute;
+	width:21px;
+	height:21px;
+	top:10px;
+	left:15px;
+}
+.timeAxisDiv #nextTime{
+	BACKGROUND-IMAGE: url(../img/y_slider_l.png)/*tpa=http://112.25.190.109:7002/eaps/img/y_slider_l.png*/;
+	BACKGROUND-REPEAT: no-repeat;
+	position: absolute;
+	width:21px;
+	height:21px;
+	top:12px;
+	right:15px;
+}
+.slider-inner {
+  position: relative;
+  height: 8px;
+  top: 15px;
+ /* border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;*/
+
+}
+.slider-handle {
+  position: absolute;
+  display: block;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.slider-tip {
+  position: absolute;
+  display: inline-block;
+  line-height: 12px;
+  font-size: 12px;
+  white-space: nowrap;
+  top: -30px;
+}
+.slider-rule {
+  position: relative;
+  top:2px;
+}
+.slider-rule span {
+  position: absolute;
+  display: inline-block;
+  font-size: 0;
+  height: 5px;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+}
+.slider-rulelabel {
+  position: relative;
+  top: 18px;
+}
+.slider-rulelabel span {
+  position: absolute;
+  display: inline-block;
+  font-size: 12px;
+}
+.slider-handle {
+  background: url('../img/slider_handle.png')/*tpa=http://112.25.190.109:7002/eaps/img/slider_handle.png*/ no-repeat;
+  position: absolute;
+    display: block;
+    outline: none;
+    width: 104px;
+    height: 44px;
+    top: -24px;
+    margin-left: -52px;
+}
+.slider-inner {
+  border-color: #95B8E7;
+  background: #E0ECFF;
+        border-top-color: #63a11e;
+    border-left-color: #63a11e;
+    border-bottom-color: #ffffff;
+    border-right-color: #63a11e;
+    background:url(../img/y_slider_in.png)/*tpa=http://112.25.190.109:7002/eaps/img/y_slider_in.png*/ repeat-x;
+
+}
+.slider-rule span {
+  border-color: #d6f2f5;
+  
+  
+}
+.slider-rulelabel span {
+  color: #fff;
+}
+.slider-rulelabel span {
+    position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    white-space: nowrap;

@@ -1,0 +1,181 @@
+/* Font Icons */
+.icon {
+    display: inline-block;
+    font-family: 'ios7-icon';
+    -webkit-text-rendering: geometricPrecision;
+    -moz-text-rendering: geometricPrecision;
+    -ms-text-rendering: geometricPrecision;
+    -o-text-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-style: normal;
+    text-shadow: none;
+}
+
+[class*="sa-"] {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Left Menu */
+[class*="sa-side-"] {
+    width: 44px;
+    height: 44px;
+}
+
+.sa-side-home { background: url("../img/home.png")/*tpa=http://112.25.190.109:7002/eaps/img/icon/home.png*/ 3px center no-repeat; }
+.sa-side-typography { background: url(../img/typography.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/typography.png*/ 3px center no-repeat; }
+.sa-side-widget { background: url(../img/widgets.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/widgets.png*/ 3px center no-repeat; }
+.sa-side-table { background: url(../img/table.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/table.png*/ 3px center no-repeat; }
+.sa-side-form { background: url(../img/form.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/form.png*/ 3px center no-repeat; }
+.sa-side-ui { background: url(../img/ui.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/ui.png*/ 3px center no-repeat; }
+.sa-side-folder { background: url(../img/folder.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/folder.png*/ 3px center no-repeat; }
+.sa-side-calendar { background: url(../img/calendar.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/calendar.png*/ 3px center no-repeat; }
+.sa-side-page { background: url(../img/pages.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/pages.png*/ 3px center no-repeat; }
+.sa-side-chart { background: url(../img/chart.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/chart.png*/ 3px center no-repeat; }
+.sa-side-photos { background: url(../img/photos.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/photos.png*/ 3px center no-repeat; }
+
+/* Top Menu */
+[class*="sa-top-"] {
+    width: 40px;
+    height: 48px;
+    float: left;
+}
+.sa-top-message { background-image: url(../img/message.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/message.png*/; }
+.sa-top-warning {background-image: url(../img/warning.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/warning.png*/;}
+.sa-top-updates { background-image: url(../img/updates.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/updates.png*/; }
+
+/* Editor */
+[class*="editor-"] {
+   width: 13px;
+   height: 22px;
+   background-position: center;
+   background-repeat: no-repeat;
+   float: left;
+}
+.editor-text { background-image: url(../img/text.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/text.png*/; }
+.editor-bold { background-image: url(../img/bold.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/bold.png*/; }
+.editor-italic { background-image: url(../img/italic.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/italic.png*/; }
+.editor-underline { background-image: url(../img/underline.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/underline.png*/; }
+.editor-unstyle { background-image: url(../img/unstyle.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/unstyle.png*/; }
+.editor-unlist { background-image: url(../img/unlist.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/unlist.png*/; }
+.editor-orderlist { background-image: url(../img/orderlist.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/orderlist.png*/; }
+.editor-align { background-image: url(../img/align.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/align.png*/; }
+.editor-line-height { background-image: url(../img/line-height.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/line-height.png*/; }
+.editor-table { background-image: url(../img/table-1.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/table.png*/; }
+.editor-link { background-image: url(../img/link.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/link.png*/; }
+.editor-picture { background-image: url(../img/picture.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/picture.png*/; }
+.editor-video { background-image: url(../img/video.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/video.png*/; }
+.editor-full-screen { background-image: url(../img/full-screen.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/full-screen.png*/; }
+.editor-code { background-image: url(../img/code.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/code.png*/; }
+.editor-help { background-image: url(../img/help.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/help.png*/; }
+.editor-font { background-image: url(../img/font.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/font.png*/; }
+.editor-heading { background-image: url(../img/heading.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/heading.png*/; }
+
+/* List Icons */
+[class*="sa-list-"] {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sa-list-add { background-image: url(../img/add.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/add.png*/; }
+.sa-list-refresh { background-image: url(../img/refresh.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/refresh.png*/; }
+.sa-list-move { background-image: url(../img/move.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/move.png*/; }
+.sa-list-delete { background-image: url(../img/delete.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/delete.png*/; }
+.sa-list-back { background-image: url(../img/back.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/back.png*/; }
+.sa-list-forwad { background-image: url(../img/forwad.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/forwad.png*/; }
+.sa-list-day { background-image: url(../img/day.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/day.png*/; }
+.sa-list-week { background-image: url(../img/week.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/week.png*/; }
+.sa-list-month { background-image: url(../img/month.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/month.png*/; }
+.sa-list-spam { background-image: url(../img/spam.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/spam.png*/; }
+.sa-list-archive { background-image: url(../img/archive.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/archive.png*/; }
+
+
+/* Others */
+#menu-toggle { background-image: url(../img/menu.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/menu.png*/; }
+
+/* Form */
+.sa-plus {
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/plus-sm.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/plus-sm.png*/;
+    display: inline-block;
+}
+
+/* For Higher DPI */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (   min--moz-device-pixel-ratio: 1.25),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 1.25),
+only screen and (                min-resolution: 120dpi),
+only screen and (                min-resolution: 1.25dppx) {
+
+    /* Left Menu */
+    .sa-side-typography, .sa-side-widget, .sa-side-table, .sa-side-ui, .sa-side-folder { background-size: 23px 21px; }
+
+    .sa-side-home { background-image: url(../img/home@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/home@2x.png*/; background-size: 25px 25px; }
+    .sa-side-typography { background-image: url(../img/typography@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/typography@2x.png*/; }
+    .sa-side-widget { background-image: url(../img/widgets@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/widgets@2x.png*/; }
+    .sa-side-table { background-image: url(../img/table@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/table@2x.png*/; }
+    .sa-side-form { background-image: url(../img/form@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/form@2x.png*/; background-size: 19px 25px; }
+    .sa-side-ui { background-image: url(../img/ui@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/ui@2x.png*/;  }
+    .sa-side-folder { background-image: url(../img/folder@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/folder@2x.png*/; }
+    .sa-side-calendar { background-image: url(../img/calendar@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/calendar@2x.png*/; background-size: 23px 23px; }
+    .sa-side-page { background-image: url(../img/pages@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/pages@2x.png*/; background-size: 25px 21px; }
+    .sa-side-chart { background-image: url(../img/chart@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/chart@2x.png*/; background-size: 24px 19px; }
+    .sa-side-photos { background-image: url(../img/photos@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/photos@2x.png*/; background-size: 23px 19px; }
+    
+    /* Top Menu */
+    .sa-top-message { background-image: url(../img/message@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/message@2x.png*/; background-size: 25px 17px; }
+    .sa-top-updates { background-image: url(../img/updates@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/updates@2x.png*/; background-size: 25px 25px; }
+
+    /* Editor */
+    .editor-text { background-image: url(../img/text@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/text@2x.png*/; background-size: 11px 13px; }
+    .editor-bold { background-image: url(../img/bold@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/bold@2x.png*/; background-size:  10px 13px;}
+    .editor-italic { background-image: url(../img/italic@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/italic@2x.png*/; background-size: 5px 13px; }
+    .editor-underline { background-image: url(../img/underline@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/underline@2x.png*/; background-size: 10px 13px; }
+    .editor-unstyle { background-image: url(../img/unstyle@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/unstyle@2x.png*/; background-size: 11px 13px; }
+    .editor-unlist { background-image: url(../img/unlist@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/unlist@2x.png*/; background-size: 13px 13px; }
+    .editor-orderlist { background-image: url(../img/orderlist@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/orderlist@2x.png*/; background-size: 13px 13px; }
+    .editor-align { background-image: url(../img/align@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/align@2x.png*/; background-size: 13px 13px; }
+    .editor-line-height { background-image: url(../img/line-height@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/line-height@2x.png*/; background-size: 11px 13px; }
+    .editor-table { background-image: url(../img/table@2x-1.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/table@2x.png*/; background-size: 13px 13px; }
+    .editor-link { background-image: url(../img/link@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/link@2x.png*/; background-size: 9px 13px; }
+    .editor-picture { background-image: url(../img/picture@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/picture@2x.png*/; background-size: 13px 13px; }
+    .editor-video { background-image: url(../img/video@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/video@2x.png*/; background-size: 13px 13px; }
+    .editor-full-screen { background-image: url(../img/full-screen@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/full-screen@2x.png*/; background-size: 13px 13px; }
+    .editor-code { background-image: url(../img/code@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/code@2x.png*/; background-size: 10px 13px;}
+    .editor-help { background-image: url(../img/help@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/help@2x.png*/; background-size: 10px 13px; }
+    .editor-font { background-image: url(../img/font@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/font@2x.png*/; background-size: 10px 13px; }
+    .editor-heading { background-image: url(../img/heading@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/editor/heading@2x.png*/; background-size: 10px 13px; }
+
+    /* List Icons */    
+    .sa-list-add { background-image: url(../img/add@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/add@2x.png*/; background-size: 19px 19px;  }
+    .sa-list-refresh { background-image: url(../img/refresh@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/refresh@2x.png*/; background-size: 18px 19px; }
+    .sa-list-move { background-image: url(../img/move@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/move@2x.png*/; background-size: 19px 19px; }
+    .sa-list-delete { background-image: url(../img/delete@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/delete@2x.png*/; background-size: 15px 19px; }
+    .sa-list-back { background-image: url(../img/back@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/back@2x.png*/; background-size: 12px 21px; }
+    .sa-list-forwad { background-image: url(../img/forwad@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/forwad@2x.png*/; background-size: 12px 21px; }
+    .sa-list-day { background-image: url(../img/day@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/day@2x.png*/; background-size: 21px 21px; }
+    .sa-list-week { background-image: url(../img/week@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/week@2x.png*/; background-size: 21px 21px; }
+    .sa-list-month { background-image: url(../img/month@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/month@2x.png*/; background-size: 21px 21px; }
+    .sa-list-spam { background-image: url(../img/spam@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/spam@2x.png*/; background-size: 17px 17px; }
+    .sa-list-archive { background-image: url(../img/archive@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/archive@2x.png*/; background-size: 17px 17px; }
+
+    /* Form */
+    .sa-plus { background-image: url(../img/plus-sm@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/plus-sm@2x.png*/; background-size: 13px 13px; }
+    
+    /* Others */
+    #menu-toggle { background-image: url(../img/menu@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/menu@2x.png*/; background-size: 18px 13px; }
+    .main-search { background-image: url(../img/search@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/search@2x.png*/; background-size: 25px 25px; }
+    .tile-config > .tile-menu { background-image: url(../img/tile-actions@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/tile-actions@2x.png*/; background-size: 13px 3px; }
+    .message-search:not(:focus) { background-image: url(../img/search@2x.png)/*tpa=http://112.25.190.109:7002/eaps/img/icon/search@2x.png*/; background-size: 25px 25px; }
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+        <meta name="description" content="Violate Responsive Admin Template">
+        <meta name="keywords" content="Super Admin, Admin, Template, Bootstrap">
+        <title>气象系统预测demo</title>
+        <link rel="shortcut icon" href="img/icon.ico" tppabs="http://112.25.190.109:7002/eaps/img/icon/icon.ico" />
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" tppabs="http://112.25.190.109:7002/eaps/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" tppabs="http://112.25.190.109:7002/eaps/css/animate.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css" tppabs="http://112.25.190.109:7002/eaps/css/font-awesome.min.css" />
+        <link href="css/form.css" tppabs="http://112.25.190.109:7002/eaps/css/form.css" rel="stylesheet">
+        <link href="css/file-manager.css" tppabs="http://112.25.190.109:7002/eaps/css/file-manager.css" rel="stylesheet">
+        <link href="css/style.css" tppabs="http://112.25.190.109:7002/eaps/css/style.css" rel="stylesheet">
+        <link href="css/icons.css" tppabs="http://112.25.190.109:7002/eaps/css/icons.css" rel="stylesheet">
+        <link href="css/generics.css" tppabs="http://112.25.190.109:7002/eaps/css/generics.css" rel="stylesheet">
+        <link href="css/y_style.css" tppabs="http://112.25.190.109:7002/eaps/css/y_style.css" rel="stylesheet">
+		<link rel="StyleSheet" href="css/ol.css" tppabs="http://112.25.190.109:7002/eaps/css/ol.css" type="text/css" />
+    </head>
+    <body id="skin-blur-sky1">
+        <header id="header" class="media">
+            <!--<a href="" id="menu-toggle"></a> -->
+            <!--<a class="logo pull-left" href="index.html">超级管理员 1.0</a>-->
+            <div class="logo pull-left"><img src="img/logo.png" tppabs="http://112.25.190.109:7002/eaps/img/logo.png" alt="" /></div>
+            <div class="media-body">
+                <div class="media" id="top-menu">
+                    <div class="pull-left tm-icon">
+                        <a data-drawer="messages" class="drawer-toggle" id="y_message_icon" href="">
+                            <i class="sa-top-message"></i>
+                            <i class="n-count animated">5</i>
+                            <span>消息</span>
+                        </a>
+                        <div class="y_message">1.冰冻预警：今天天气今天天气今天天气<br>1.冰冻预警：今天天气今天天气今天天天气<br>1.冰冻预警：今天天气今天天气今天天气天天气<br>1.冰冻预警：今天天气今天天气今天天气</div>
+                        <a data-drawer="messages" class="drawer-toggle" href="">
+                            <i class="sa-top-warning"></i>
+                            <i class="n-count animated">5</i>
+                            <span>警告</span>
+                        </a>
+                    </div>
+                    <!--<div class="pull-left tm-icon">
+                        <a data-drawer="notifications" class="drawer-toggle" href="">
+                            <i class="sa-top-updates"></i>
+                            <i class="n-count animated">9</i>
+                            <span>更新</span>
+                        </a>
+                    </div>-->
+                    <div id="time" class="pull-right">
+                       <button type="button" class="btn btn-md btn-alt dropdown-toggle" data-toggle="dropdown">
+                                <i class="icon left">&#61758;</i>&nbsp;
+                                <span  class='y_changeInnerHTML'>红花梁风电场</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" style="min-width:100px;">
+                                <li><a href="#">红花梁风电场</a></li>
+                                <li><a href="#">哈密风电场</a></li>
+                                <li><a href="#">红河谷风电场</a></li>
+                            </ul>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <section id="main" class="p-relative" role="main">
+        	<!-- nav_start -->
+            <ul class="pull-left nav nav-pills nav-stacked y_nav">
+            	<li role="presentation" class="sa-side-home y_active"><a href="index.html" tppabs="http://112.25.190.109:7002/eaps/index.html">风场概览</a></li>
+            	<li role="presentation" class="sa-side-chart"><a href="html/electricity_evaluate_analysis.html" tppabs="http://112.25.190.109:7002/eaps/electricity_evaluate_analysis.html">发电评估分析</a></li>
+            	<li role="presentation" class="sa-side-widget" ><a href="html/power_curve_analysis.html" tppabs="http://112.25.190.109:7002/eaps/power_curve_analysis.html">功率曲线分析</a></li>
+            	<li role="presentation" class="sa-side-table"><a href="html/windmill_health_score.html" tppabs="http://112.25.190.109:7002/eaps/windmill_health_score.html">风机健康评分</a></li>
+            	<li role="presentation" class="sa-side-ui"><a href="html/electricity_loss_evaluate.html" tppabs="http://112.25.190.109:7002/eaps/electricity_loss_evaluate.html">发电损失评估</a></li>
+            	<li role="presentation" class="sa-side-page"><a href="html/working_data_trend.html" tppabs="http://112.25.190.109:7002/eaps/working_data_trend.html">运行数据趋势</a></li>
+            	<li role="presentation" class="sa-side-folder"><a href="html/weather_event_warning.html" tppabs="http://112.25.190.109:7002/eaps/weather_event_warning.html">气象事件预警</a></li>
+                <li class="y_single m-t-20" ><!-- Projects -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            当前风机健康状况
+                        </h2>
+                        
+                        <div class="s-widget-body">
+                            <div class="side-border">
+                                <small>最低评分风机</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="progress-bar tooltips progress-bar-danger" style="width: 60%;" data-original-title="60%">
+                                          <span class="sr-only">60% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第二重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-info" style="width: 43%;" data-original-title="43%">
+                                          <span class="sr-only">43% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第三重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-warning" style="width: 81%;" data-original-title="81%">
+                                          <span class="sr-only">81% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第四重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-success" style="width: 10%;" data-original-title="10%">
+                                          <span class="sr-only">10% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="side-border">
+                                <small>第五重要指标</small>
+                                <div class="progress progress-small">
+                                     <a href="#" data-toggle="tooltip" title="" class="tooltips progress-bar progress-bar-success" style="width: 95%;" data-original-title="95%">
+                                          <span class="sr-only">95% Complete</span>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </li>
+            </ul>
+            <!-- nav_end -->
+                    
+            <!-- Content -->
+            <section id="content" class="container">
+                <!-- Messages Drawer -->
+                <!--
+                <div id="messages" class="tile drawer animated">
+                   nothing
+                </div>
+                -->
+                <!-- Notification Drawer -->
+                <!--
+                <div id="notifications" class="tile drawer animated">
+                    nothing
+                </div>
+                -->
+                <!-- Main Widgets -->
+                <div class="block-area">
+                    <!-- USA Map -->
+                    <div class="tile">
+						<ul class="nav  nav-tabs ">
+                            <li id="y_moveLt">
+                                <a>
+                                  <i class="icon" style="cursor:pointer;margin-right:15px;">&#61903;</i>
+                                </a>
+                            </li>
+                             <li id="y_moveRt">
+                                <a>
+                                  <i class="icon" style="cursor:pointer;margin-right:15px;">&#61815;</i>
+                                </a>
+                            </li>
+                            <li class="y_winMessage" style="margin-right:40px;">风场名称</li>
+                            <li class="y_winMessage" >平均风速</li>
+                            <li class="y_winMessage" style='color:#ffd600'>30km/h</li>
+                            <li class="y_winMessage" >现场功率</li>
+                            <li class="y_winMessage" style='color:#ffd600'>4500kw</li>
+                            <li class="y_winMessage" >综合评分</li>
+                            <li class="y_winMessage" style='color:#ffd600'>80</li>
+                            <li class="pull-right elfinder-ltr">
+                               <div class="ui-widget-content elfinder-button elfinder-button-search" style="display:block;">
+                                <input type="text" size="42" class="file-search" style="margin-top:5px;"/>
+                                <span class="ui-icon ui-icon-search tooltips" title data-original-title="search" style="cursor:pointer;line-height:13px;"></span>
+                               </div> 
+                            </li>
+                        </ul>
+                        <div>
+  							<!--<div class="map" style="width: 100%; height: 900px; border: 1px;" id="map1"></div>-->
+                            <img src="img/map.jpg" alt="">
+                            <a tabindex="0" id="example" class="btn btn-sm btn-primary" role="button" data-toggle="popover" data-trigger="focus" title="A01" data-content="风速:1m/s功率:2735W">a01</a>
+                            <a href="javascript:;" class="y_fengji">01</a>
+                            <a href="javascript:;" class="y_fengji" style="left:49%;">02</a>
+                            <a href="javascript:;" class="y_fengji" style="left:48%;">03</a>
+                            <div class="y_fj_show">
+                            	<h3>A01</h3>
+                            	<ul>
+                                	<li><span class="icon">&#61752;</span>风速:1m/s</li>
+                                	<li><span class="icon">&#61738;</span>功率:2735W</li>
+                                	<li><span class="icon">&#61881;</span>效率:3</li>
+                                	<li><span class="icon">&#61932;</span>评分:86</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Older IE Message -->
+            <!--[if lt IE 9]>
+            <div class="ie-block">
+                <h1 class="Ops">Ooops!</h1>
+                <p>You are using an outdated version of Internet Explorer, upgrade to any of the following web browser
+                    in order to access the maximum functionality of this website. </p>
+                <ul class="browsers">
+                    <li>
+                        <a href="javascript:if(confirm(%27https://www.google.com/intl/en/chrome/browser/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.google.com/intl/en/chrome/browser/%27"
+                           tppabs="https://www.google.com/intl/en/chrome/browser/">
+                            <img src="img/chrome.png" tppabs="http://112.25.190.109:7002/eaps/img/browsers/chrome.png"
+                                 alt="">
+                            <div>Google Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:if(confirm(%27http://www.mozilla.org/en-US/firefox/new/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.mozilla.org/en-US/firefox/new/%27"
+                           tppabs="http://www.mozilla.org/en-US/firefox/new/">
+                            <img src="img/firefox.png" tppabs="http://112.25.190.109:7002/eaps/img/browsers/firefox.png"
+                                 alt="">
+                            <div>Mozilla Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:if(confirm(%27http://www.opera.com/computer/windows  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.opera.com/computer/windows%27"
+                           tppabs="http://www.opera.com/computer/windows">
+                            <img src="img/opera.png" tppabs="http://112.25.190.109:7002/eaps/img/browsers/opera.png"
+                                 alt="">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:if(confirm(%27http://safari.en.softonic.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://safari.en.softonic.com/%27"
+                           tppabs="http://safari.en.softonic.com/">
+                            <img src="img/safari.png" tppabs="http://112.25.190.109:7002/eaps/img/browsers/safari.png"
+                                 alt="">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:if(confirm(%27http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-10/worldwide-languages  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-10/worldwide-languages%27"
+                           tppabs="http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-10/worldwide-languages">
+                            <img src="img/ie.png" tppabs="http://112.25.190.109:7002/eaps/img/browsers/ie.png" alt="">
+                            <div>Internet Explorer(New)</div>
+                        </a>
+                    </li>
+                </ul>
+                <p>Upgrade your browser for a Safer and Faster web experience. <br/>Thank you for your patience...</p>
+            </div>
+            <![endif]-->
+        </section>
+        
+        <!-- Javascript Libraries -->
+        <!-- jQuery -->
+        <script src="js/jquery.min.js" tppabs="http://112.25.190.109:7002/eaps/js/jquery.min.js"></script> <!-- jQuery Library -->
+
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js" tppabs="http://112.25.190.109:7002/eaps/js/bootstrap.min.js"></script>
+
+
+        <!--  Form Related -->
+        <script src="js/icheck.js" tppabs="http://112.25.190.109:7002/eaps/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+
+        <!-- UX -->
+        <script src="js/scroll.min.js" tppabs="http://112.25.190.109:7002/eaps/js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+
+        <!-- All JS functions -->
+        <script src="js/functions.js" tppabs="http://112.25.190.109:7002/eaps/js/functions.js"></script>
+         <!--地图-->
+         <script src="js/ol.js" tppabs="http://112.25.190.109:7002/eaps/js/ol.js"></script>
+         <script type="text/javascript" src="js/y_all.js" tppabs="http://112.25.190.109:7002/eaps/js/y_all.js"></script>
+         <script type="text/javascript" src="js/index.js" tppabs="http://112.25.190.109:7002/eaps/js/index.js"></script>
+    </body>
+</html>
